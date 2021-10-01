@@ -1,0 +1,48 @@
+@media(max-width:780px){
+  .sidebar{
+    display: none;
+  }
+
+  .contents{
+    width: 100%;
+  }
+
+  .photo-wrapper img{
+    width: 100%;
+  }
+
+  .brand-contents{
+    display: block;
+  }
+
+  .contents-item{
+    width: 27%;
+    margin: 0 auto;
+  }
+
+  .project-item{
+    display: block;
+  }
+
+  .project-item img{
+    padding-bottom: 20px;
+  }
+
+  .company-contents{
+    display: block;
+  }
+
+  .ggmap{
+    width: 100%;
+    height: 100%;
+  }
+
+
+}
+
+
+@media(min-width:780px){
+  header{
+    display: none;
+  }
+}
